@@ -45,18 +45,29 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: url(../img/banner.jpg);
+  /* background-image: url(../img/banner.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
+.cabecalho .cabecalho__banner{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    z-index: 0;
 
-.cabecalho__group {
-  max-width: 700px;
-  text-align: center;
+}
+.cabecalho .cabecalho__banner .banner__img {
+    width: 100%;
+}
+
+.cabecalho__group{
+    max-width: 826px;
+    text-align: center;
+    z-index: 1;
 }
 
 .group__title {
